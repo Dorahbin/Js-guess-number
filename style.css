@@ -1,0 +1,55 @@
+/* body */
+body {
+  font-family: cursive;
+  background-color: red;
+}
+/* header */
+h1 {
+  font-size: 3rem;
+}
+
+header h3 {
+  font-size: 5rem;
+}
+
+input {
+  height: 5rem;
+  background: inherit;
+  border: 4px solid #eee;
+  font-size: 5rem;
+  padding: 2rem;
+  text-align: center;
+  width: 18rem;
+  border-radius: 3px;
+}
+
+.btn-checker {
+  border: none;
+  background-color: #eee;
+  color: #222;
+  font-size: 1rem;
+  padding: 2rem;
+  cursor: pointer;
+}
+
+@media (max-width: 475px) {
+  .btn-checker {
+    font-size: 1rem;
+    padding: 1rem;
+  }
+
+  .again {
+    font-size: 1rem;
+    padding: 1rem;
+  }
+
+  input {
+    height: 3rem;
+    background: inherit;
+    border: 2px solid #eee;
+    font-size: 2.5rem;
+    padding: 1rem;
+    text-align: center;
+    width: 14rem;
+  }
+}
